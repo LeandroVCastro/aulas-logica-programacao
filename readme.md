@@ -11,3 +11,4 @@ Ideal para quem quer ingressar na área com uma base sólida em algoritmos.
 4.  ### [Concatenação de string](https://www.youtube.com/watch?v=5GZdImqKLVw)
 5.  ### [If/else + Operadores lógicos](https://www.youtube.com/watch?v=ZM5YqMsJS00)
 6.  ### [If/else + Operadores lógicos - Parte 2](https://youtu.be/7aezQWbr8xY)
+7.  ### [If/else + Operadores lógicos - Parte 3](https://youtu.be/fTWXQqcZRj0)
