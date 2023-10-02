@@ -1,0 +1,31 @@
+<script>
+  const quantidade_dias = prompt("Quantos dias ficou hospedado?");
+
+  console.log("quantidade_dias", quantidade_dias);
+
+  const cafe_da_manha = prompt("Incluir cafe da manha?"); // s ou n
+
+  console.log("cafe_da_manha", cafe_da_manha);
+
+  let valor_diaria = 0;
+
+  if (quantidade_dias <= 4) {
+    valor_diaria = 220;
+  }
+
+  if (quantidade_dias >= 5 && quantidade_dias <= 10) {
+    valor_diaria = 180;
+  }
+
+  if (quantidade_dias > 10) {
+    valor_diaria = 170;
+  }
+
+  if (cafe_da_manha == "s") {
+    valor_diaria = valor_diaria + 40;
+  }
+
+  const total = valor_diaria * quantidade_dias;
+
+  console.log("total", total);
+</script>
