@@ -1,0 +1,20 @@
+<script>
+  let maior;
+
+  for (let i = 1; i <= 5; i++) {
+    let numero = prompt(`Informe o numero ${i}`);
+    numero = parseInt(numero);
+    if (i == 1) {
+      maior = numero;
+    }
+    if (numero > maior) {
+      maior = numero;
+    }
+  }
+
+  console.log("O maior numero eh", maior);
+
+  // maior = 100
+  // i = 6
+  // numero = 50
+</script>
