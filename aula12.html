@@ -1,0 +1,9 @@
+<script>
+  const numero = prompt("Informe um número");
+
+  for (let i = 1; i <= numero; i++) {
+    const sobra = i % 2;
+    const tipo = sobra == 0 ? "Par" : "Impar";
+    console.log(`Numero: ${i} / Sobra: ${sobra} / Tipo: ${tipo}`);
+  }
+</script>
