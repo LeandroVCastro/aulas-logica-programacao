@@ -1,0 +1,14 @@
+<script>
+  const quantidade_numeros = prompt("Quantos numeros vc deseja informar");
+  let total = 0;
+
+  for (let i = 1; i <= quantidade_numeros; i++) {
+    let numero = prompt(`Informe o numero ${i}`);
+    numero = parseInt(numero);
+    total = total + numero;
+  }
+
+  const media = total / quantidade_numeros;
+
+  console.log("Media: ", media);
+</script>
