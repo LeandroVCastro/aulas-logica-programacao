@@ -1,0 +1,20 @@
+<script>
+  const quantidade_numeros = prompt("Exibir primos ate o numero:");
+
+  for (let i = 1; i <= quantidade_numeros; i++) {
+    // true = verdadeiro
+    // false = falso
+    let primo = true;
+
+    for (let j = 2; j < i; j++) {
+      const resto = i % j;
+      if (resto == 0) {
+        primo = false;
+      }
+    }
+
+    if (primo == true) {
+      console.log(`Eh primo: ${i}`);
+    }
+  }
+</script>
