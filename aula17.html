@@ -1,0 +1,20 @@
+<script>
+    const lista_de_numeros = [];
+
+    for (let i=1; i<=3; i++) {
+        const numero = prompt(`Informe o numero da posicao ${i}`);
+        lista_de_numeros.push(numero);
+    }
+
+    
+    for (let i=0; i<=2; i++) {
+        console.log(`Numero: ${lista_de_numeros[i]}`);
+
+        for (let j=1; j<=10; j++) {
+            const resultado = lista_de_numeros[i] * j;
+            console.log(`${lista_de_numeros[i]} x ${j} = ${resultado}`)
+        }
+    }
+
+
+</script>
